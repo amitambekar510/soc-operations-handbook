@@ -1,0 +1,51 @@
+# GitHub Pages Configuration
+# Theme: just-the-docs (professional documentation site)
+
+title: SOC Operations Handbook
+description: "A comprehensive, SIEM-agnostic SOC Operations Handbook framework for building, updating, and auditing Security Operations Centre documentation."
+baseurl: "/soc-operations-handbook"
+url: "https://amitambekar510.github.io"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+
+# Author
+author:
+  name: Amit Ambekar
+  github: amitambekar510
+
+# Navigation
+nav_enabled: true
+search_enabled: true
+search_tokenizer_separator: /[\s\-/]+/
+
+# Footer
+footer_content: "Copyright &copy; 2025 Amit Ambekar. Published under Custom Open-Use License."
+
+# Color scheme
+color_scheme: light
+
+# Callouts
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: blue
+  important:
+    title: Important
+    color: yellow
+
+# GitHub integration
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/amitambekar510/soc-operations-handbook"
+gh_edit_branch: "main"
+
+# Google Analytics (optional)
+# ga_tracking_id: "UA-XXXXXXXXX-X"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
